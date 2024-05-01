@@ -1,5 +1,5 @@
 # Define the root directory
-$root_directory = 'splunk/subscription/resource/virtualmachine'
+$root_directory = 'test/subscription/resource/virtualmachine'
 
 # Get all files and directories recursively
 $items = Get-ChildItem -Path $root_directory -Recurse
